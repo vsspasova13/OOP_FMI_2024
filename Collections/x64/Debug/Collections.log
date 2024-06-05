@@ -1,0 +1,3 @@
+﻿  Collections.cpp
+D:\УНИ\2 сем\ООП\osn zad\Collections\Collections.cpp(11,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Collections.vcxproj -> D:\УНИ\2 сем\ООП\osn zad\Collections\x64\Debug\Collections.exe
