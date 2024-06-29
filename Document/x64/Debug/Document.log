@@ -1,0 +1,6 @@
+﻿  Source.cpp
+Document.obj : error LNK2019: unresolved external symbol "public: class MyString & __cdecl MyString::operator=(class MyString const &)" (??4MyString@@QEAAAEAV0@AEBV0@@Z) referenced in function "public: struct Comment & __cdecl Comment::operator=(struct Comment const &)" (??4Comment@@QEAAAEAU0@AEBU0@@Z)
+Document.obj : error LNK2019: unresolved external symbol "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class MyString const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVMyString@@@Z) referenced in function "public: void __cdecl Document::display(void)const " (?display@Document@@QEBAXXZ)
+Source.obj : error LNK2019: unresolved external symbol "public: __cdecl MyString::MyString(char const *)" (??0MyString@@QEAA@PEBD@Z) referenced in function "public: __cdecl Comment::Comment(void)" (??0Comment@@QEAA@XZ)
+Source.obj : error LNK2019: unresolved external symbol "public: __cdecl MyString::~MyString(void)" (??1MyString@@QEAA@XZ) referenced in function "int `public: __cdecl Comment::Comment(void)'::`1'::dtor$0" (?dtor$0@?0???0Comment@@QEAA@XZ@4HA)
+D:\УНИ\2 сем\ООП\za izpit\Document\x64\Debug\Document.exe : fatal error LNK1120: 4 unresolved externals
