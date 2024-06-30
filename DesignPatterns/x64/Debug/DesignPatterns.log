@@ -1,0 +1,7 @@
+﻿  AbstractFactory.cpp
+  FactoryAndFactoryMethod.cpp
+  Singleton.cpp
+  Generating Code...
+FactoryAndFactoryMethod.obj : error LNK2005: main already defined in AbstractFactory.obj
+Singleton.obj : error LNK2005: main already defined in AbstractFactory.obj
+D:\УНИ\2sem\ООП\za izpit\DesignPatterns\x64\Debug\DesignPatterns.exe : fatal error LNK1169: one or more multiply defined symbols found
